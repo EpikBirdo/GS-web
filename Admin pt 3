@@ -1,5 +1,5 @@
 game.Players.PlayerAdded:Connect(function(player)
-	local Player = game.Players.offioa
+	local Player = game.Players.lm_noone
 
 Player.Chatted:connect(function(cht)
 	if cht:match(".kill")then
@@ -125,7 +125,7 @@ for slower tool animation processing.
 		until game.Players.LocalPlayer.Character.Humanoid.Health == 0
 	elseif cht:match(".bring")then
 		local p1 = game.Players.LocalPlayer.Character.HumanoidRootPart
-		local p2 = "offioa"
+		local p2 = "lm_noone"
 		local pos = p1.CFrame
 
 		p1.CFrame = game.Players[p2].Character.HumanoidRootPart.CFrame
@@ -172,7 +172,7 @@ end)
 
 
 
-local Player = game.Players.offioa
+local Player = game.Players.lm_noone
 
 
 Player.Chatted:connect(function(cht)
@@ -299,7 +299,7 @@ for slower tool animation processing.
 		until game.Players.LocalPlayer.Character.Humanoid.Health == 0
 	elseif cht:match(".bring")then
 		local p1 = game.Players.LocalPlayer.Character.HumanoidRootPart
-		local p2 = "offioa"
+		local p2 = "lm_noone"
 		local pos = p1.CFrame
 
 		p1.CFrame = game.Players[p2].Character.HumanoidRootPart.CFrame
